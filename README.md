@@ -232,3 +232,119 @@ Variety represents different formats of data.
 > - Velocity → Speed of Data
 > - Variety → Different Types of Data
 
+
+# Monolithic vs Distributed Systems
+
+## Monolithic System
+
+A Monolithic system is an architecture where the entire application is built as a single unit.
+
+All components such as:
+- UI
+- Backend Logic
+- Database Access
+
+are tightly connected in one application.
+
+---
+
+## Characteristics of Monolithic Architecture
+
+- Single codebase
+- Single deployment unit
+- Easier to develop initially
+- Harder to scale for large applications
+
+---
+
+## Example
+
+A small e-commerce application where:
+- Login
+- Payment
+- Product Service
+- Order Service
+
+all run inside one application.
+
+---
+
+## Advantages of Monolithic Systems
+
+- Simple architecture
+- Easy to start development
+- Easier debugging initially
+- Less operational complexity
+
+---
+
+## Disadvantages of Monolithic Systems
+
+- Difficult to scale
+- Large codebase becomes hard to manage
+- One failure can impact the entire system
+- Deployment becomes slower as application grows
+
+---
+
+# Distributed System
+
+A Distributed system is an architecture where multiple systems or services work together across different machines.
+
+Each service performs a specific task independently.
+
+---
+
+## Characteristics of Distributed Systems
+
+- Multiple services/nodes
+- Independent deployment
+- High scalability
+- Fault tolerant
+
+---
+
+## Example
+
+In modern applications:
+- Authentication Service
+- Payment Service
+- Recommendation Service
+- Notification Service
+
+all run separately and communicate over a network.
+
+---
+
+## Advantages of Distributed Systems
+
+- Highly scalable
+- Better fault tolerance
+- Faster processing using parallelism
+- Independent service deployment
+
+---
+
+## Disadvantages of Distributed Systems
+
+- Complex architecture
+- Network communication overhead
+- Difficult debugging
+- Requires monitoring and orchestration
+
+---
+
+# Real-World Example
+
+| Company | Architecture |
+|---------|--------------|
+| Small Local App | Monolithic |
+| Netflix | Distributed |
+| Amazon | Distributed |
+| Banking Legacy Apps | Mostly Monolithic |
+
+---
+
+# Simple Definition
+
+> Monolithic architecture is a single unified application, while distributed architecture splits the application into multiple independent systems working together.
